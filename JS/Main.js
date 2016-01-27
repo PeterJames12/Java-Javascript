@@ -1,6 +1,6 @@
 var first = 'Say hello right now!!! ';
 
-var test1now = function() {
+function test1now (count) {
     console.log(first + 'Hello');
 };
 
@@ -158,7 +158,7 @@ function test9ComeBack(friend) {
 
 }
 
-test1now();
+test1now('Hello');
 
 test2isInt('9');
 
