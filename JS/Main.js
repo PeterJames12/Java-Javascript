@@ -141,10 +141,6 @@ function test8fooCount(girl) {
     }
 }
 
-console.log(test3TryGipotenysa(3,4,5));
-
-test2isInt('9');
-
 function test9ComeBack(friend) {
 
     var mas = [];
@@ -164,6 +160,10 @@ function test9ComeBack(friend) {
 
 test1now();
 
+test2isInt('9');
+
+console.log(test3TryGipotenysa(3,4,5));
+
 test4CheckRivnobedreny(10,10,8);
 
 test5checkTwoRivnostoronuh(17, 17, 17, 23, 23, 23);
@@ -173,6 +173,7 @@ test6twoCount(12, 23);
 console.log(test7evenNumber(17, 23));
 
 test8fooCount(1723);
+
 //test9ComeBack(1723);
 
 
